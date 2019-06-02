@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "VRR",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A website for VRR Trust",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "dhilipKumar",
   "dependencies": {
     "gatsby": "^2.8.2",
     "gatsby-image": "^2.1.2",
@@ -23,7 +23,7 @@
     "prettier": "^1.17.1"
   },
   "keywords": [
-    "gatsby"
+    "trust", "charity", "vrr"
   ],
   "license": "MIT",
   "scripts": {
@@ -32,13 +32,10 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"No Test Cases\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": ""
   }
 }
