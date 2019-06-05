@@ -8,18 +8,22 @@ import JoinUs from '../components/JoinUs';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Donate from '../components/Donate';
+import Home from '../components/Home';
+import Footer from '../components/Footer';
 
 const IndexPage = () => {
   return (
     <div>
       <SEO title="Home" />
       <Header/>
+      <Home/>
       <Events/>
-      <Gallery/>
-      <JoinUs/>
+      {/* <Gallery/> */}
+      {/* <JoinUs/> */}
       <About/>
-      <Contact/>
-      <Donate/>
+      {/* <Contact/> */}
+      {/* <Donate/> */}
+      <Footer/>
     </div>
   );
 }
